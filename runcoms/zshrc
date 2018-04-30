@@ -11,3 +11,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+# Single line for pure prompt
+prompt_newline='%666v'
+PROMPT=" $PROMPT"
