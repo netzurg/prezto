@@ -15,3 +15,11 @@ fi
 # Single line for pure prompt
 prompt_newline='%666v'
 PROMPT=" $PROMPT"
+
+# My aliases
+alias tmux=tmux_wrapper.sh
+alias rr='cd ~rdisk/dewildea/private/; pwd'
+
+alias bis1='ssh bison01'
+alias bis2='ssh bison02'
+alias bis3='ssh bison03'
